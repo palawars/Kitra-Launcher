@@ -1,13 +1,13 @@
 {
-  "name": "Arche-Launcher",
+  "name": "Kitra-Launcher",
   "user": "web",
-  "version": "1.0.1-beta-01",
-  "productName": "Arche Launcher",
-  "description": "Arche Launcher",
+  "version": "1.0.1",
+  "productName": "Kitra Launcher",
+  "description": "Kitra Launcher",
   "main": "app/index.html",
   "author": "Luuxis",
   "window": {
-    "title": "Arche update",
+    "title": "Kitra update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -16,14 +16,14 @@
     "icon": "app/assets/images/icon/icon.png"
   },
   "chromium-args": "--enable-logging --v=1",
-  "url": "http://launcheur.arche-rp.fr/{user}",
+  "url": "https://mee6-best.ts3miki.fr/{user}",
   "webkit": {
     "plugin": true
   },
   "scripts": {
     "start": "nw .",
-    "dev": "nw . --user-data-dir=./AppData/Arche-Launcher",
-    "server": "node node_modules/emc-core-luuxis/utils/builder.js --v=1.12.2",
+    "dev": "nw . --user-data-dir=./AppData/kitra-Launcher",
+    "server": "node node_modules/emc-core-luuxis/utils/builder.js --v=1.7.10",
     "build:win": "build --win --x64 --mirror https://npm.taobao.org/mirrors/nwjs/ .",
     "build:mac": "build --mac --x64 --mirror https://npm.taobao.org/mirrors/nwjs/ .",
     "build:linux": "build --linux --x64 --mirror https://npm.taobao.org/mirrors/nwjs/ .",
@@ -31,7 +31,7 @@
   },
   "license": "MIT",
   "build": {
-    "appId": "Arche Launcher",
+    "appId": "Kitra Launcher",
     "nwVersion": "0.48.4",
     "packed": true,
     "targets": [
@@ -54,17 +54,17 @@
     ],
     "outputPattern": "${NAME}-${VERSION}-${PLATFORM}",
     "win": {
-      "productName": "Arche Launcher",
-      "companyName": "Arche Launcher",
+      "productName": "Kitra Launcher",
+      "companyName": "Kitra Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icon/icon.ico"
     },
     "mac": {
-      "displayName": "Arche Launcher",
+      "displayName": "Kitra Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icon/icon.icns",
       "plistStrings": {
-        "CFBundleIdentifier": "Arche Launcher",
+        "CFBundleIdentifier": "Kitra Launcher",
         "CFBundleDocumentTypes": []
       }
     },
