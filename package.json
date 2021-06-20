@@ -1,7 +1,7 @@
 {
   "name": "Kitra-Launcher",
   "user": "web",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "productName": "Kitra Launcher",
   "description": "Kitra Launcher",
   "main": "app/index.html",
@@ -57,7 +57,7 @@
       "productName": "Kitra Launcher",
       "companyName": "Kitra Launcher",
       "copyright": "copyright",
-      "icon": "./app/assets/images/icon/icon.ico"
+      "icon": "./app/assets/images/icon/iconkitra.ico"
     },
     "mac": {
       "displayName": "Kitra Launcher",
